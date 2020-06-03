@@ -1,7 +1,7 @@
 {
-  "name": "my-react-webpack-babel-template",
+  "name": "thebible",
   "version": "1.0.0",
-  "description": "My react template with babel and webpack pre-configured. Also includes with react-router",
+  "description": "This is a landing page for TheBible application.",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -27,6 +27,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "gh-pages": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0"
