@@ -3,6 +3,7 @@ import React from "react";
 // CSS import
 import "./css/reset.css";
 import "./css/app.css";
+import "./css/responsive.css";
 // images import
 import windows_ico from "./img/win10_icon.png";
 import linux_ico from "./img/ubuntu_icon.png";

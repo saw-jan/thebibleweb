@@ -1,0 +1,116 @@
+@media screen and (max-width: 480px) {
+  #bookmark {
+    background-size: 7vw;
+    width: 7vw;
+    height: 10vh;
+  }
+  .upper {
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aquamarine; */
+  }
+  .upper-left {
+    flex: 2;
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 20px;
+    /* background-color: bisque; */
+  }
+  .upper-left #logo {
+    background-size: 20vw;
+    height: 20vw;
+    width: 20vw;
+  }
+  .upper-left #tagline {
+    font-size: 5vw;
+    line-height: 5vw;
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 35px;
+    /* background-color: aqua; */
+  }
+  .upper-right {
+    flex: 3;
+    background-size: 90vw;
+    background-position: center center;
+    margin-bottom: 30px;
+    height: 90vw;
+    width: 90vw;
+    /* background-color: red; */
+  }
+  .buttons {
+    margin-top: 10px;
+  }
+  .lower-left .download-btn {
+    padding: 0;
+    margin-right: 5vw;
+    height: 10vw;
+  }
+  .download-btn #button {
+    font-size: 3vw;
+    width: 22vw;
+    height: 10vw;
+    padding: 5px 10px;
+    /* background-color: aqua; */
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  #bookmark {
+    background-size: 7vw;
+    width: 7vw;
+    height: 10vh;
+  }
+  .upper {
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aquamarine; */
+  }
+  .upper-left {
+    flex: 2;
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 20px;
+    /* background-color: bisque; */
+  }
+  .upper-left #logo {
+    background-size: 20vw;
+    height: 20vw;
+    width: 20vw;
+  }
+  .upper-left #tagline {
+    font-size: 5vw;
+    line-height: 5vw;
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 35px;
+    /* background-color: aqua; */
+  }
+  .upper-right {
+    flex: 3;
+    background-size: 90vw;
+    background-position: center center;
+    margin-bottom: 30px;
+    height: 90vw;
+    width: 90vw;
+    /* background-color: red; */
+  }
+  .buttons {
+    margin-top: 10px;
+  }
+  .lower-left .download-btn {
+    padding: 0;
+    margin-right: 5vw;
+    height: 10vw;
+  }
+  .download-btn #button {
+    font-size: 3vw;
+    width: 22vw;
+    height: 10vw;
+    padding: 5px 10px;
+    /* background-color: aqua; */
+  }
+}
