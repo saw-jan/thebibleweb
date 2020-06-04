@@ -63,16 +63,17 @@
     height: 10vh;
   }
   .upper {
+    flex: 4;
     flex-direction: column;
     align-items: center;
     /* background-color: aquamarine; */
   }
   .upper-left {
-    flex: 2;
+    flex: 2.5;
     margin-left: 0;
     flex-direction: column;
     align-items: center;
-    padding-top: 5vh;
+    padding-top: 0;
     padding-bottom: 20px;
     /* background-color: bisque; */
   }
